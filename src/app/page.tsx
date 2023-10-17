@@ -8,7 +8,7 @@ export default function Home() {
       <table className='border-collapse border-solid'>
         <thead>
           <tr>
-            <th colSpan={6}>2023年度 1年4組 後期時間割表</th>
+            <th colSpan={6}>2023年度 1年4組 後期時間割表</th>          
           </tr>
           <tr>
             <th></th>
