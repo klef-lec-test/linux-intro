@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Link from "next/link";
-import "../app/globals.css"
+import "../app/globals.css";
 
 const Kosensai = () => {
   let [usr1, setUsr1] = useState(0);
@@ -13,8 +12,8 @@ const Kosensai = () => {
   function resetUsr1() {
     setUsr1(0);
   }
-  
-    return(
+
+  return (
     <div>
       {/* <div>
         <h2 className="text-2xl text-indigo-400">2023年度 第59回 大阪公立大学工業高等専門学校 高専祭 1年4組クラス展示</h2>
