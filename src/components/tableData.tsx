@@ -1,3 +1,5 @@
+//TODO: テーブルデータを入力する
+
 export const columns = [
   { Header: "時間", accessor: "time" },
   { Header: "月曜日" , accessor: "man"},
