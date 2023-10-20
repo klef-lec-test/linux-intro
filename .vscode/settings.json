@@ -1,9 +1,21 @@
 {
+    //見た目の設定
     "workbench.colorTheme": "Pastel Sky Bright Theme",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    //エディターのスタイル
     "editor.tabSize": 2,
+    "files.eol": "\n", //Unix系でのバグ防止
+    "editor.insertSpaces": true,
+    "files.encoding": "utf8",//Unix系でのバグ防止
+    "editor.lineNumbers": "relative",
     "editor.quickSuggestions": {
         "other": "on",
         "comments": "off",
         "strings": true
-    }
+    },
+   //保存ほか 
+    "editor.formatOnSave": true,
+    "files.autoSave": "onWindowChange"
 }

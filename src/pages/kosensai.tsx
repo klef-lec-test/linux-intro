@@ -13,14 +13,13 @@ const Kosensai = () => {
   function resetUsr1() {
     setUsr1(0);
   }
-  const text1 = Kosensai.getInitialProps;
-  console.log(text1);
+  
     return(
     <div>
-      <div>
+      {/* <div>
         <h2 className="text-2xl text-indigo-400">2023年度 第59回 大阪公立大学工業高等専門学校 高専祭 1年4組クラス展示</h2>
         <h1 className="text-6xl  text-indigo-800">KS魂 得点計算/集計システム</h1>
-      </div>
+      </div> */}
       <div>
         <h3 className="text-xl text-indigo-600">ローリングコインタワー</h3>
       </div>
@@ -40,11 +39,4 @@ const Kosensai = () => {
     </div>
   )
 }
-
-Kosensai.getInitialProps = async () => {
-  const res = await fetch('http://localhost:8080/');
-  const text = await res.text();
-  return {text};
-}
-
 export default Kosensai;
