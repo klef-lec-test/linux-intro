@@ -3,13 +3,29 @@
 {
 	"name": "timetable-frontend-next-dev-env",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"dockerfile": "Dockerfile",
-	"postCreateCommand": "./postCreateCommand.sh",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/rust:1": {}
+	"dockerFile": "Dockerfile",
+	"postCreateCommand": "./postCreateCommand.shd",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"michaelcurrin.auto-commit-msg",
+				"ms-vscode.vscode-node-azure-pack",
+				"streetsidesoftware.code-spell-checker",
+				"pranaygp.vscode-css-peek",
+				"firefox-devtools.vscode-firefox-debug",
+				"broadcommfd.debugger-for-mainframe",
+				"ms-vscode-remote.remote-containers",
+				"ms-azuretools.vscode-docker",
+				"dbaeumer.vscode-eslint",
+				"figma.figma-vscode-extension",
+				"miguelsolorio.fluent-icons",
+				"oderwat.indent-rainbow",
+				"ms-kubernetes-tools.vscode-kubernetes-tools",
+				"shira.pastel-sky-theme",
+				"equinusocio.vsc-material-theme-icons"
+			]
+		}
 	}
-
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
