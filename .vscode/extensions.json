@@ -1,20 +1,20 @@
-{
-  "recommendations": [
-    "michaelcurrin.auto-commit-msg",
-    "ms-vscode.vscode-node-azure-pack",
-    "streetsidesoftware.code-spell-checker",
-    "pranaygp.vscode-css-peek",
-    "firefox-devtools.vscode-firefox-debug",
-    "broadcommfd.debugger-for-mainframe",
-    "ms-vscode-remote.remote-containers",
-    "ms-azuretools.vscode-docker",
-    "dbaeumer.vscode-eslint",
-    "figma.figma-vscode-extension",
-    "miguelsolorio.fluent-icons",
-    "oderwat.indent-rainbow",
-    "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "shira.pastel-sky-theme",
-    "equinusocio.vsc-material-theme-icons",
-    "codeium.codeium"
-  ]
-}
+// {
+//   "recommendations": [
+//     "michaelcurrin.auto-commit-msg",
+//     "ms-vscode.vscode-node-azure-pack",
+//     "streetsidesoftware.code-spell-checker",
+//     "pranaygp.vscode-css-peek",
+//     "firefox-devtools.vscode-firefox-debug",
+//     "broadcommfd.debugger-for-mainframe",
+//     "ms-vscode-remote.remote-containers",
+//     "ms-azuretools.vscode-docker",
+//     "dbaeumer.vscode-eslint",
+//     "figma.figma-vscode-extension",
+//     "miguelsolorio.fluent-icons",
+//     "oderwat.indent-rainbow",
+//     "ms-kubernetes-tools.vscode-kubernetes-tools",
+//     "shira.pastel-sky-theme",
+//     "equinusocio.vsc-material-theme-icons",
+//     "codeium.codeium"
+//   ]
+// }
