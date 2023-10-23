@@ -4,14 +4,14 @@
 	"name": "timetable-frontend-next-dev-env",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"dockerFile": "Dockerfile",
-	"postCreateCommand": "./postCreateCommand.shd",
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"michaelcurrin.auto-commit-msg",
-				"ms-vscode.vscode-node-azure-pack", 
-				"streetsidesoftware.code-spell-checker", 
-				"pranaygp.vscode-css-peek", 
+				"ms-vscode.vscode-node-azure-pack",
+				"streetsidesoftware.code-spell-checker",
+				"pranaygp.vscode-css-peek",
 				"firefox-devtools.vscode-firefox-debug",
 				"broadcommfd.debugger-for-mainframe",
 				"ms-vscode-remote.remote-containers",
@@ -28,16 +28,12 @@
 	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
-
 	// Configure tool-specific properties.
 	// "customizations": {},
-
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
