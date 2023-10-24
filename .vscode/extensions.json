@@ -1,13 +1,13 @@
-// {
-//   "recommendations": [
+{
+  "recommendations": [
 //     "michaelcurrin.auto-commit-msg",
 //     "ms-vscode.vscode-node-azure-pack",
 //     "streetsidesoftware.code-spell-checker",
 //     "pranaygp.vscode-css-peek",
-//     "firefox-devtools.vscode-firefox-debug",
+    "firefox-devtools.vscode-firefox-debug",
 //     "broadcommfd.debugger-for-mainframe",
-//     "ms-vscode-remote.remote-containers",
-//     "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "ms-azuretools.vscode-docker",
 //     "dbaeumer.vscode-eslint",
 //     "figma.figma-vscode-extension",
 //     "miguelsolorio.fluent-icons",
@@ -16,5 +16,5 @@
 //     "shira.pastel-sky-theme",
 //     "equinusocio.vsc-material-theme-icons",
 //     "codeium.codeium"
-//   ]
-// }
+  ]
+}
