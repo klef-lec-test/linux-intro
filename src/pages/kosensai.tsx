@@ -1,3 +1,4 @@
+//TODO: 不要部分の削除
 import React, { useState } from "react";
 import "../app/globals.css";
 
