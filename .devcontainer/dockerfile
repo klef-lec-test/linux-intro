@@ -10,7 +10,5 @@ RUN pacman -S --noconfirm npm
 RUN pacman -S --noconfirm yarn
 RUN pacman -S --noconfirm git
 RUN pacman -S --noconfirm github-cli
-RUN pacman -S --noconfirm nano
-RUN pacman -S --noconfirm neovim
 
 ENV PATH /root/.local/bin:$PATH
