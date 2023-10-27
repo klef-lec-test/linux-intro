@@ -1,6 +1,6 @@
 FROM archlinux
 
-LABEL version="0.1.0"
+LABEL version="0.2.0"
 LABEL maintainer="haru"
 LABEL name="timetable-frontend-next"
 
