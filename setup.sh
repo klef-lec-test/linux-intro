@@ -1,4 +1,4 @@
-!# usr/bin/sh
+#! usr/bin/sh
 # git clone https://github.com/haru-0205/timetable-frontend-next
 echo "メールアドレスを入力してください"
 read email
