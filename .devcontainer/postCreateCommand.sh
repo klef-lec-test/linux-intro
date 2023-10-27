@@ -5,9 +5,7 @@ git config --global user.email $email
 echo "ユーザー名を入力してください"
 read name
 git config --global user.name $name
-echo "GitHub Access Tokenをペーストしてください"
-read accessToken
-gh auth login --with-token $accessToken
+gh auth login
 git fetch
 git pull
 git checkout develop
