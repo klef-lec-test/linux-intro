@@ -1,4 +1,4 @@
-#! usr/bin/sh
+#!/bin/bash
 # yarn(node.js)
 yarn add next
 yarn add react
