@@ -133,23 +133,33 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
 
 <details>
   <summary>fig.3</summary>
+  
   ![fig.3](./pictures/onboading/git-dl.png)
+
 </details>
 <details>
   <summary>fig.4</summary>
+
   ![fig.4](./pictures/onboading/git-setup-1.png)
+
 </details>
 <details>
   <summary>fig.5</summary>
+  
   ![fig.5](./pictures/onboading/git-setup-2.png)
+
 </details>
 <details>
   <summary>fig.6</summary>
-  ![fig.3](./pictures/onboading/git-setup-3.png)
+
+  ![fig.6](./pictures/onboading/git-setup-3.png)
+
 </details>
 <details>
   <summary>fig.7</summary>
-  ![fig.3](./pictures/onboading/git-setup-4.png)
+
+  ![fig.7](./pictures/onboading/git-setup-4.png)
+
 </details>
 
 
