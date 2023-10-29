@@ -124,9 +124,9 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
    2． "Add a Git Bash Profile to Windows Terminal"に追加チェック->`Next`(fig.4)  
    3． "Use Visual Studio Code as ..."を選択->`Next`(意味が分かる人は別のものを選択してもよい)(fig.5)  
    4． "Override the default branch name ..."にチェック->`Next`(任意)(fig.6)  
-   5~7． `Next`(デフォルト設定のままでOK)  
+   5-7． `Next`(デフォルト設定のままでOK)  
    8． "Checkout as-is, commit Unix-Style line encoding"にチェック->`Next`(fig.7)  
-   9~12． `Next`(デフォルト設定のままでOK)  
+   9-12． `Next`(デフォルト設定のままでOK)  
    13． `Install`(デフォルト設定のままでOK)
 なお，これらの設定は間違えて設定しても修正可能である．
 また，WindowsでGitを使う気がなければ極論すべてデフォルト設定でも問題はない．
