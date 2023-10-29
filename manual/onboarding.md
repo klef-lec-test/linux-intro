@@ -24,11 +24,11 @@ haru-0205/timetable-frontend-next
 - Mozilla Firefox : ブラウザー
 - Windows Subsystem for Linux : Linux 環境(後述)
 
-また，作業マニュアル等もGitHubにアップロードする予定であるため，以下のアプリケーションのインストールを推奨する．
+また，作業マニュアル等も GitHub にアップロードする予定であるため，以下のアプリケーションのインストールを推奨する．
 
 - GitHub Mobile App (
-[Google Play](https://play.google.com/store/apps/details?id=com.github.android&pcampaignid=web_share),
-[App Store](https://apps.apple.com/jp/app/github/id1477376905))
+  [Google Play](https://play.google.com/store/apps/details?id=com.github.android&pcampaignid=web_share),
+  [App Store](https://apps.apple.com/jp/app/github/id1477376905))
 
 ## Visual Studio Code
 
@@ -53,8 +53,9 @@ Visual Studio Code は「VSCode」と略されることが多い定番のテキ�
  
  </details>
 
- なお，ここで紹介した方法以外に，WinGetを使ってもインストールできる．  
- ```powershell
+なお，ここで紹介した方法以外に，WinGet を使ってもインストールできる．
+
+```powershell
 winget install -id Microsoft.VisualStudioCode
 ```
 
@@ -62,7 +63,7 @@ winget install -id Microsoft.VisualStudioCode
 
 ### 概要
 
-Gitは，現在(おそらく)最もシェアの高いバージョン管理システムである．
+Git は，現在(おそらく)最もシェアの高いバージョン管理システムである．
 
 <details>
   <summary>バージョン管理システムについて</summary>
@@ -81,37 +82,35 @@ Gitは，現在(おそらく)最もシェアの高いバージョン管理シス
 <details>
   <summary>GitとGitHub</summary>
 
-Gitは先述の通りバージョン管理システムであり，GitHubはGitのホスティングサービスである．  
-つまり，GitHubは**自分でサーバーを準備せずとも**ソースコードを公開したり共有したりできるWebサービスである．  
-もちろん，GitのホスティングサービスはGitHubだけではない．有名なものを挙げると「GitLab」「GitBucket」あたりがそうである．  
-その中でも，GitHubは特にシェアが高く，情報が多いため本プロジェクトではGitHubを採用する．(というかここにこれを書いている時点でGitHubを使っていることになるのだが...)
-  
+Git は先述の通りバージョン管理システムであり，GitHub は Git のホスティングサービスである．  
+つまり，GitHub は**自分でサーバーを準備せずとも**ソースコードを公開したり共有したりできる Web サービスである．  
+もちろん，Git のホスティングサービスは GitHub だけではない．有名なものを挙げると「GitLab」「GitBucket」あたりがそうである．  
+その中でも，GitHub は特にシェアが高く，情報が多いため本プロジェクトでは GitHub を採用する．(というかここにこれを書いている時点で GitHub を使っていることになるのだが...)
+
 </details>
 
-GItをWindowsで使うには「Git for Windows」というソフトウェアが必要である．  
-また，GitHubを使用する場合，これに加えて「GitHub Desktop」や「GitHub CLI」を導入するとかなり便利である．
+GIt を Windows で使うには「Git for Windows」というソフトウェアが必要である．  
+また，GitHub を使用する場合，これに加えて「GitHub Desktop」や「GitHub CLI」を導入するとかなり便利である．
 
 <details>
   <summary>GitHub DesktopとGitHub CLI</summary>
 
-  GitHub DesktopとGitHub CLIはともに**GitHubの**アプリケーションである．(**Gitのアプリではないことに注意!**)  
-  GitHub Desktopは**Gitリポジトリのローカルコピーの作成などが簡単にできる**ソフトウェアである．
-  GitHub CLIは**CLI環境下**で**GitHubのほぼすべての機能にアクセスできる**ソフトウェアである．  
-  本プロジェクトではGitHub CLIを用いてIssueの作成などを簡単にできるスクリプトを作成予定である．
+GitHub Desktop と GitHub CLI はともに**GitHub の**アプリケーションである．(**Git のアプリではないことに注意!**)  
+ GitHub Desktop は**Git リポジトリのローカルコピーの作成などが簡単にできる**ソフトウェアである．
+GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアクセスできる**ソフトウェアである．  
+ 本プロジェクトでは GitHub CLI を用いて Issue の作成などを簡単にできるスクリプトを作成予定である．
 
- 
 </details>
 
  <details>
     <summary>GUIとCLI</summary>
 
     GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．
-    
+
     ![GUI](./pictures/onboading/gui.png)
-    
+
     CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面にただ文字だけが表示されている画面である．基本的にキーボードのみで操作する．
-    
+
     ![CLI](./pictures/onboading/cli.png)
-    
+
   </details>
-  
