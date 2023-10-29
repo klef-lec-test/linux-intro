@@ -99,11 +99,19 @@ GItをWindowsで使うには「Git for Windows」というソフトウェアが�
   GitHub CLIは**CLI環境下**で**GitHubのほぼすべての機能にアクセスできる**ソフトウェアである．  
   本プロジェクトではGitHub CLIを用いてIssueの作成などを簡単にできるスクリプトを作成予定である．
 
-  <details>
+ 
+</details>
+
+ <details>
     <summary>GUIとCLI</summary>
 
-    GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．  
+    GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．
+    
+    ![GUI](./pictures/onboading/gui.png)
+    
     CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面にただ文字だけが表示されている画面である．基本的にキーボードのみで操作する．
+    
+    ![CLI](./pictures/onboading/cli.png)
+    
   </details>
   
-</details>
