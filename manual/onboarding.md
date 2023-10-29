@@ -28,9 +28,7 @@ haru-0205/timetable-frontend-next
 
 - GitHub Mobile App (
 [Google Play](https://play.google.com/store/apps/details?id=com.github.android&pcampaignid=web_share),
-[App Store](https://apps.apple.com/jp/app/github/id1477376905))![Uploading cli.png…]()
-![gui](https://github.com/Haru-0205/timetable-frontend-next/assets/130574047/6cdda80a-103c-4ee1-beb2-929ef405f4f0)
-
+[App Store](https://apps.apple.com/jp/app/github/id1477376905))
 
 ## Visual Studio Code
 
