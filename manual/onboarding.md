@@ -101,16 +101,16 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
  本プロジェクトでは GitHub CLI を用いて Issue の作成などを簡単にできるスクリプトを作成予定である．
 
 </details>
+<details>
+  <summary>GUIとCLI</summary>
 
- <details>
-    <summary>GUIとCLI</summary>
+  GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．
 
-    GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．
+  ![GUI](./pictures/onboading/gui.png)
+  CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面にただ文字だけが表示されている画面である．基本的にキーボードのみで操作する．
 
-    ![GUI](./pictures/onboading/gui.png)
+  ![CLI](./pictures/onboading/cli.png)
 
-    CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面にただ文字だけが表示されている画面である．基本的にキーボードのみで操作する．
+  なお，CLIは「別名」が多数存在する．(CUI:Command User Interface/Caractor-based User Interface 等)
 
-    ![CLI](./pictures/onboading/cli.png)
-
-  </details>
+</details>
