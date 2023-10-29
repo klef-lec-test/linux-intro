@@ -111,6 +111,6 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
 
   ![CLI](./pictures/onboading/cli.png)
 
-  なお，CLIは「別名」が多数存在する．(CUI:Command User Interface/Caractor-based User Interface 等)
+  なお，CLIはCUI:Command User Interface/Caractor-based User Interface ともいう．
 
 </details>
