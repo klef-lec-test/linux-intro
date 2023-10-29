@@ -40,10 +40,10 @@ Visual Studio Code は「VSCode」と略されることが多い定番のテキ�
 > [!IMPORTANT]
 > 手順 1 でダウンロードするのは特別な事情がない限り「Windows」とかかれたボタンをクリックすること．(画像 1)
 >
-> <details>
-> <summary>画像1</summary>
->  
->   ![picture1](./pictures/onboading/vscode-dl.png)
->   *画像1*
-> 
-> </details>
+ <details>
+ <summary>画像1</summary>
+  
+   ![picture1](./pictures/onboading/vscode-dl.png)
+   *画像1*
+ 
+ </details>
