@@ -44,10 +44,10 @@ Visual Studio Code は「VSCode」と略されることが多い定番のテキ�
 3. インストーラーに沿ってインストールする．
 
 > [!IMPORTANT]
-> 手順 1 でダウンロードするのは特別な事情がない限り「Windows」とかかれたボタンをクリックすること．(画像 1)
+> 手順 1 でダウンロードするのは特別な事情がない限り「Windows」とかかれたボタンをクリックすること．(fig.1)
 
  <details>
- <summary>画像1</summary>
+ <summary>fig.1</summary>
    
    ![picture1](./pictures/onboading/vscode-dl.png) 
  
@@ -56,7 +56,7 @@ Visual Studio Code は「VSCode」と略されることが多い定番のテキ�
 なお，ここで紹介した方法以外に，WinGet を使ってもインストールできる．
 
 ```powershell
-winget install -id Microsoft.VisualStudioCode
+winget install --id Microsoft.VisualStudioCode
 ```
 
 ## Git for Windows
@@ -113,4 +113,50 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
 
   なお，CLIはCUI:Command User Interface/Caractor-based User Interface ともいう．
 
+</details>
+
+### インストール
+1. https://git-scm.com/download/win から最新のビルドをダウンロード(fig.3)
+2. ダウンロードしたインストーラーを起動
+3. インストーラーに沿ってインストール  
+   インストール時は以下のオプションを選択する. (以下の番号はインストーラーの「`Next`」を押した数+1)  
+   1． `Next`(GPLライセンス)  
+   2． "Add a Git Bash Profile to Windows Terminal"に追加チェック->`Next`(fig.4)  
+   3． "Use Visual Studio Code as ..."を選択->`Next`(意味が分かる人は別のものを選択してもよい)(fig.5)  
+   4． "Override the default branch name ..."にチェック->`Next`(任意)(fig.6)  
+   5~7． `Next`(デフォルト設定のままでOK)  
+   8． "Checkout as-is, commit Unix-Style line encoding"にチェック->`Next`(fig.7)  
+   9~12． `Next`(デフォルト設定のままでOK)  
+   13． `Install`(デフォルト設定のままでOK)
+なお，これらの設定は間違えて設定しても修正可能である．
+また，WindowsでGitを使う気がなければ極論すべてデフォルト設定でも問題はない．
+
+<details>
+  <summary>fig.3</summary>
+  ![fig.3](./pictures/onboading/git-dl.png)
+</details>
+<details>
+  <summary>fig.4</summary>
+  ![fig.4](./pictures/onboading/git-setup-1.png)
+</details>
+<details>
+  <summary>fig.5</summary>
+  ![fig.5](./pictures/onboading/git-setup-2.png)
+</details>
+<details>
+  <summary>fig.6</summary>
+  ![fig.3](./pictures/onboading/git-setup-3.png)
+</details>
+<details>
+  <summary>fig.7</summary>
+  ![fig.3](./pictures/onboading/git-setup-4.png)
+</details>
+
+
+また，もちろんWingetを使ってインストールすることもできる．
+```powershell
+winget install --id Git.Git
+```
+<details>
+  <summary>設定修正・WinGet経由インストール時の設定用コマンド</summary>
 </details>
