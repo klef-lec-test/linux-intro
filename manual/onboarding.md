@@ -24,6 +24,12 @@ haru-0205/timetable-frontend-next
 - Mozilla Firefox : ブラウザー
 - Windows Subsystem for Linux : Linux 環境(後述)
 
+また，作業マニュアル等もGitHubにアップロードする予定であるため，以下のアプリケーションのインストールを推奨する．
+
+- GitHub Mobile App (
+[Google Play](https://play.google.com/store/apps/details?id=com.github.android&pcampaignid=web_share),
+[App Store](https://apps.apple.com/jp/app/github/id1477376905))
+
 ## Visual Studio Code
 
 ### 概要
@@ -39,10 +45,36 @@ Visual Studio Code は「VSCode」と略されることが多い定番のテキ�
 
 > [!IMPORTANT]
 > 手順 1 でダウンロードするのは特別な事情がない限り「Windows」とかかれたボタンをクリックすること．(画像 1)
->
+
  <details>
  <summary>画像1</summary>
    
    ![picture1](./pictures/onboading/vscode-dl.png) 
  
  </details>
+
+ なお，ここで紹介した方法以外に，WinGetを使ってもインストールできる．  
+ ```powershell
+winget install -id Microsoft.VisualStudioCode
+```
+
+## Git for Windows
+
+### 概要
+
+Gitは，現在(おそらく)最もシェアの高いバージョン管理システムである．
+
+<details>
+  <summary>バージョン管理システムについて</summary>
+  
+  バージョン管理システムは，**「いつ」「誰が」「どのファイルを」「どのように」変更したのかを記録**し， **必要に応じて変更前の状態に戻したり**，**1つのプロジェクトから分岐して別々に作業したり**,**それらを統合したりできる便利なシステム**である．  
+  バージョン管理システムの筆頭はやはり「Git」であろう．  
+  GitはLinuxの創始者でもあるLinus Torvalds氏によって作成された分散型バージョン管理システムである．  
+ 本プロジェクトでも例にもれずGitを採用する．  
+  「Gitは**分散型**バージョン管理システム」と先述したが，分散型バージョン管理システムと対偶をなすのがSubversionなどに代表される「**集中型**バージョン管理システム」である．  
+  **分散型**バージョン管理システムは**集中型**バージョン管理システムの欠点を解決すべく生まれた．  
+  **集中型**バージョン管理システムでは，データは1つのサーバー上にあり，作業者は**必要なファイルだけ**をダウンロードして作業し，作業が完了したらサーバーにアップロードをする，というシステムである．このシステムの最大の欠点として，「サーバーが落ちると開発がストップする」ということが挙げられる．  
+  一方，**分散型**バージョン管理システムは，作業者は**リポジトリのローカルコピー**を作成し，**適宜ローカルリポジトリをアップデートしながら**作業する形式である．こうすれば，必要なデータはすべて各作業者の手元にあるので万一サーバーが落ちても開発が止まらない．  
+  Gitの細かい使い方については後日講習を行う．
+  
+</details>
