@@ -155,12 +155,6 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
   ![fig.6](./pictures/onboading/git-setup-3.png)
 
 </details>
-<details>
-  <summary>fig.7</summary>
-
-  ![fig.7](./pictures/onboading/git-setup-4.png)
-
-</details>
 
 
 また，もちろんWingetを使ってインストールすることもできる．
