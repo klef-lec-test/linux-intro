@@ -42,6 +42,6 @@ Visual Studio Code は「VSCode」と略されることが多い定番のテキ�
 >
 > <details>
 > <summary>画像1</summary>
-> - 画像1
-> ![picture1](./pictures/onboading/vscode-dl.png)
+>   - 画像1
+>   ![picture1](./pictures/onboading/vscode-dl.png)
 > </details>
