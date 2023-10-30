@@ -21,9 +21,9 @@ haru-0205/timetable-frontend-next
 - [Visual Studio Code](#visual-studio-code) : コードエディター
 - [Git for Windows](#git-for-windows) : バージョン管理ソフトウェア
 - [GitHub Desktop](#github-desktop)：GitHub のデスクトップクライアント
-- Docker Desktop : コンテナー型仮想化ソフト(後述)
+- [Windows Subsystem for Linux](#windows-subsystem-for-linux) : Linux 環境(後述)
+- [Docker Desktop](#docker-desktop) : コンテナー型仮想化ソフト(後述)
 - Mozilla Firefox : ブラウザー
-- Windows Subsystem for Linux : Linux 環境(後述)
 
 また，作業マニュアル等も GitHub にアップロードする予定であるため，以下のアプリケーションのインストールを推奨する．
 
@@ -212,3 +212,113 @@ git config --global init.defaultBranch main
 GitHub Desktop は，言わずとも GitHub のデスクトップクライアントである．  
 これを使うと，Git コマンドを使わずとも Git 関係の基本的な操作を行うことができる．  
 ただし，VSCode の Git 統合機能は使えない．
+
+### インストール
+
+1. https://desktop.github.com/ からインストーラーをダウンロード(fig.8)
+2. ダウンロードしたインストーラーを起動
+3. インストーラーに沿ってインストール
+
+<details>
+  <summary>fig.8</summary>
+
+![fig.8](./pictures/onboading/gh-desktop-dl.png)
+
+</details>
+
+例によって Winget でもインストールできる．
+
+```powershell
+winget install --id GitHub.GitHubDesktop
+```
+
+> [!NOTE]
+> インストール完了後はログインしておくこと．
+
+## Windows Subsystem for Linux
+
+### 概要
+
+Windows Subsystem for Linux (WSL)は，Windows 上で仮想的に Linux を動かすためのソフトウェアである．  
+のちに説明する[Docker Desktop](#docker-desktop)で必要である．
+また，任意の Linux ディストリビューションを入れて Linux コマンドを使用することもできる．
+
+### 有効化
+
+1. <kbd>win</kbd>+<kbd>Q</kbd>で検索画面を開き，`Windowsの機能の有効化または無効化`を検索，一番上に出てくるものをクリック (fig.9)
+2. `Hyper-V` `Linux用Windowsサブシステム`にチェック (fig.10)
+3. `OK`をクリック
+4. 指示に従って再起動
+
+<details>
+  <summary>fig.9</summary>
+
+![fig.9](./pictures/onboading/wsl-activate-1.png)
+
+</details>
+<details>
+  <summary>fig.10</summary>
+
+![fig.10](./pictures/onboading/wsl-activate-2.png)
+
+</details>
+
+## Docker Desktop
+
+### 概要
+
+Docker Desktop は，Docker Engine を Linux 以外でも動かせるようにするソフトウェアである．  
+なお，これの動作には [WSL(Windows Subsystem for Linux)](#windows-subsystem-for-linux)が必要である．
+
+### インストール
+
+> [!WARNING]
+> これをインストールする前にかならず[Windows Subsystem for Linux の設定](#windows-subsystem-for-linux)を行うこと．
+
+1. https://www.docker.com/products/docker-desktop/ からインストーラーをダウンロードする．(fig.11)
+2. ダウンロードしたインストーラーを起動する．
+3. インストーラーに沿ってインストールする．
+4. 指示に従って再起動する(要求されないこともある)．
+
+<details>
+  <summary>fig.11</summary>
+  
+  ![fig.11](./pictures/onboading/docker-desktop-dl.png)
+
+</details>
+
+言わずとも Winget でインストールすることもできる．
+
+```powershell
+winget install --id Docker.DockerDesktop
+```
+
+## Firefox
+
+### 概要
+
+Mozilla Firefox は，Mozilla Foundation が開発している Web ブラウザーである．  
+Chrome や Microsoft Edge とは違うレンダリングエンジン(Web ページを表示するために解析する仕組み)を持つ，数少ないブラウザーの一つである．  
+今回は CSS Grid を用いてレイアウトを組む予定であるため，CSS Grid ツール付きの DevTool が付属する Firefox を使用することを推奨する．
+
+### インストール
+
+ここでは Stable 版と Developer Edition 双方のインストール方法を示すが，今回は Stable 版で構わない(自分でも Web 開発をやりたい人は Developer Edition を推奨する)．
+
+1. [Stable 版](https://www.mozilla.org/ja/firefox/new/)または[Developer Edition](https://www.mozilla.org/ja/firefox/developer/)をダウンロード
+2. ダウンロードしたインストーラーを起動
+3. インストーラーに沿ってインストール
+
+もちろん，Winget でもインストール可能である．
+
+- Stable 版
+
+```powershell
+winget install --id Mozilla.Firefox
+```
+
+- Developer Edition
+
+```powershell
+winget install --id Mozilla.Firefox.DeveloperEdition
+```
