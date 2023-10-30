@@ -117,6 +117,9 @@ CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面に
 
 ### インストール
 
+> [!IMPORTANT]
+> Git のインストール前に Visual Studio Code のインストールを完了させることを強く推奨する．
+
 1. https://git-scm.com/download/win から最新のビルドをダウンロード(fig.3)
 2. ダウンロードしたインストーラーを起動
 3. インストーラーに沿ってインストール  
@@ -192,3 +195,15 @@ git config --global init.defaultBranch main
 ```
 
 </details>
+
+なお，このリポジトリのルートにある"setup.sh"にはユーザー名設定の対話型スクリプトが用意されている．これを Git Bash で実行することでユーザー名等の設定が可能である．  
+ここでは，ユーザーフォルダー直下に"Workspace"フォルダーを生成し，このリポジトリをクローン，Git の設定を行うまでのコマンドを示す．
+
+```bash
+mkdir workspace
+cd workspace
+git clone https://github.com/haru-0205/timetable-frontend-next.git
+cd timetable-frontend-next
+chmod +x setup.sh
+./.setup.sh
+```
