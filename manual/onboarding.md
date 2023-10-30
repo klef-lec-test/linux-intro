@@ -19,7 +19,8 @@ haru-0205/timetable-frontend-next
 > (ただし，バージョンごとの差異が発生する可能性があるため，欠かさずアップデートすること．)
 
 - [Visual Studio Code](#visual-studio-code) : コードエディター
-- Git for Windows : バージョン管理ソフトウェア
+- [Git for Windows](#git-for-windows) : バージョン管理ソフトウェア
+- [GitHub Desktop](#github-desktop)：GitHub のデスクトップクライアント
 - Docker Desktop : コンテナー型仮想化ソフト(後述)
 - Mozilla Firefox : ブラウザー
 - Windows Subsystem for Linux : Linux 環境(後述)
@@ -60,6 +61,10 @@ winget install --id Microsoft.VisualStudioCode
 ```
 
 ## Git for Windows
+
+> [!NOTE]
+> 原則入れることとするが，最悪入れなくてもどうにかなる．
+> 入れない場合は，Windows 上でのちょっとした変更をやりにくくなる．
 
 ### 概要
 
@@ -196,14 +201,14 @@ git config --global init.defaultBranch main
 
 </details>
 
-なお，このリポジトリのルートにある"setup.sh"にはユーザー名設定の対話型スクリプトが用意されている．これを Git Bash で実行することでユーザー名等の設定が可能である．  
-ここでは，ユーザーフォルダー直下に"Workspace"フォルダーを生成し，このリポジトリをクローン，Git の設定を行うまでのコマンドを示す．
+## GitHub Desktop
 
-```bash
-mkdir workspace
-cd workspace
-git clone https://github.com/haru-0205/timetable-frontend-next.git
-cd timetable-frontend-next
-chmod +x setup.sh
-./.setup.sh
-```
+> [!NOTE]
+> これも入れると便利であるが，任意とする．
+> ただし，Git を導入していないものは少なくともこちらは導入すること．
+
+### 概要
+
+GitHub Desktop は，言わずとも GitHub のデスクトップクライアントである．  
+これを使うと，Git コマンドを使わずとも Git 関係の基本的な操作を行うことができる．  
+ただし，VSCode の Git 統合機能は使えない．
