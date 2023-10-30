@@ -104,32 +104,33 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
 <details>
   <summary>GUIとCLI</summary>
 
-  GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．
+GUI(Graphical User Interface)は，いわば我々が見ている，グラフィカルな画面のことである．マウスやキーボードなどで直感的に操作可能である．
 
-  ![GUI](./pictures/onboading/gui.png)
-  CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面にただ文字だけが表示されている画面である．基本的にキーボードのみで操作する．
+![GUI](./pictures/onboading/gui.png)
+CLI(Command Line Interface)は，(イメージとしては)真っ黒の画面にただ文字だけが表示されている画面である．基本的にキーボードのみで操作する．
 
-  ![CLI](./pictures/onboading/cli.png)
+![CLI](./pictures/onboading/cli.png)
 
-  なお，CLIはCUI:Command User Interface/Caractor-based User Interface ともいう．
+なお，CLI は CUI:Command User Interface/Caractor-based User Interface ともいう．
 
 </details>
 
 ### インストール
+
 1. https://git-scm.com/download/win から最新のビルドをダウンロード(fig.3)
 2. ダウンロードしたインストーラーを起動
 3. インストーラーに沿ってインストール  
-   インストール時は以下のオプションを選択する. (以下の番号はインストーラーの「`Next`」を押した数+1)  
-   1． `Next`(GPLライセンス)  
-   2． "Add a Git Bash Profile to Windows Terminal"に追加チェック->`Next`(fig.4)  
-   3． "Use Visual Studio Code as ..."を選択->`Next`(意味が分かる人は別のものを選択してもよい)(fig.5)  
-   4． "Override the default branch name ..."にチェック->`Next`(任意)(fig.6)  
-   5-7． `Next`(デフォルト設定のままでOK)  
-   8． "Checkout as-is, commit Unix-Style line encoding"にチェック->`Next`(fig.7)  
-   9-12． `Next`(デフォルト設定のままでOK)  
-   13． `Install`(デフォルト設定のままでOK)
-なお，これらの設定は間違えて設定しても修正可能である．
-また，WindowsでGitを使う気がなければ極論すべてデフォルト設定でも問題はない．
+    インストール時は以下のオプションを選択する. (以下の番号はインストーラーの「`Next`」を押した数+1)  
+    1． `Next`(GPL ライセンス)  
+    2． "Add a Git Bash Profile to Windows Terminal"に追加チェック->`Next`(fig.4)  
+    3． "Use Visual Studio Code as ..."を選択->`Next`(意味が分かる人は別のものを選択してもよい)(fig.5)  
+    4． "Override the default branch name ..."にチェック->`Next`(任意)(fig.6)  
+    5-7． `Next`(デフォルト設定のままで OK)  
+    8． "Checkout as-is, commit Unix-Style line encoding"にチェック->`Next`(fig.7)  
+    9-12． `Next`(デフォルト設定のままで OK)  
+    13． `Install`(デフォルト設定のままで OK)
+   なお，これらの設定は間違えて設定しても修正可能である．
+   また，Windows で Git を使う気がなければ極論すべてデフォルト設定でも問題はない．
 
 <details>
   <summary>fig.3</summary>
@@ -140,7 +141,7 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
 <details>
   <summary>fig.4</summary>
 
-  ![fig.4](./pictures/onboading/git-setup-1.png)
+![fig.4](./pictures/onboading/git-setup-1.png)
 
 </details>
 <details>
@@ -152,15 +153,42 @@ GitHub CLI は**CLI 環境下**で**GitHub のほぼすべての機能にアク�
 <details>
   <summary>fig.6</summary>
 
-  ![fig.6](./pictures/onboading/git-setup-3.png)
+![fig.6](./pictures/onboading/git-setup-3.png)
 
 </details>
 
+また，もちろん Winget を使ってインストールすることもできる．
 
-また，もちろんWingetを使ってインストールすることもできる．
 ```powershell
 winget install --id Git.Git
 ```
+
 <details>
   <summary>設定修正・WinGet経由インストール時の設定用コマンド</summary>
+
+- 改行文字設定
+
+```bash
+git config --system core.autocrlf input
+```
+
+- メールアドレス・ユーザー名設定
+
+```bash
+git config --global user.email #ここにメールアドレスを入力
+git config --global user.name #ここにユーザー名を入力
+```
+
+- エディター設定(VSCode の場合)
+
+```bash
+git config --global core.editor 'code --wait'
+```
+
+- デフォルトブランチ(main にする場合)
+
+```bash
+git config --global init.defaultBranch main
+```
+
 </details>
