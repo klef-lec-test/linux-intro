@@ -1,8 +1,6 @@
 #!/bin/bash
 # yarn(node.js)
-yarn add next
-yarn add react
-yarn add @mui/material @emotion/react @emotion/styled
+yarn add
 # pacman(Archlinux)
 pacman -S --noconfirm nano
 pacman -S --noconfirm neovim
