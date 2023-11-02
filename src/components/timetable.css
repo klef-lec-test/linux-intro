@@ -1,0 +1,33 @@
+h1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-color: #e0e7ff;
+}
+h2 {
+  background-color: #e0e7ff;
+}
+h3 {
+  grid-row: span 2;
+  verticel-aligen: middle;
+  background-color: #eef2ff;
+}
+h4 {
+  grid-row: span 4;
+  verticel-aligen: middle;
+  background-color: #eef2ff;
+}
+h5 {
+  background-color: #e0e7ff;
+}
+.grid-init {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  border: 1px solid #64748b;
+  border-colspan: colspan;
+}
