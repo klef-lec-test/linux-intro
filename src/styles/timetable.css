@@ -31,3 +31,14 @@ h5 {
   border: 1px solid #64748b;
   border-colspan: colspan;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  padding: 4px;
+}

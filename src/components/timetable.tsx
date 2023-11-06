@@ -1,11 +1,11 @@
-import '../components/timetable.css'
+import '../styles/timetable.css'
 import '../app/globals.css'
 
 const TimeTable = () => {
   return(
     <div className="grid-init">
         {/* 見出し */}
-        <h1>2023年度 1年4組 後期時間割表</h1>
+        <h1 className='text-xl'>2023年度 1年4組 後期時間割表</h1>
         {/* 列見出し */}
         <h2>時間</h2>
         <h5>月曜日</h5>
