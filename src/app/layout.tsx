@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Zen_Kurenaido } from 'next/font/google'
+import { Klee_One } from 'next/font/google'
 
-const zen = Zen_Kurenaido({
+const klee = Klee_One({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }
 ) {
   return (
-    <html lang="en" className={zen.className}>
+    <html lang="en" className={klee.className}>
       <body>{children}</body>
     </html>
   )
