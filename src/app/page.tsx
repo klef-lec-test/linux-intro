@@ -1,12 +1,16 @@
 import Image from 'next/image';
+import React from 'react';
 import TimeTable from '@/components/timetable';
 import ExamTemplate from '@/components/exam_temprate';
+import Header from '@/components/header';
+import WinterHw from '@/components/winter_hw';
 
 export default function Home() {
   return (
     <div>
-      <p className='text-4xl'>2023年度1年4組 時間割共有サイト</p>
+      <Header title={"Dashboard"}></Header>
       <TimeTable />
+      <WinterHw />
       <ExamTemplate />
     </div>
   )
