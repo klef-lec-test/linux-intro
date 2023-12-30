@@ -1,3 +1,4 @@
+import { Paper } from "@mui/material";
 
 const ExamTemplate = () => {
   const today: any = new Date();
@@ -9,8 +10,11 @@ const ExamTemplate = () => {
   days = Math.ceil(days);
   return (
     <div>
-      <p className="text-3xl">学年末試験<span className="text-2xl">(あと {days} 日)</span></p>
-      <p>Comming Soon...</p>
+      <Paper>
+        <h2 className="text-2xl">学年末試験<span className="text-xl">(あと {days} 日)</span></h2>
+        <p>Comming Soon...</p>
+      </Paper>
+
     </div>
   )
 }

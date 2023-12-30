@@ -1,9 +1,11 @@
 import '../styles/timetable.css'
 import '../app/globals.css'
+import { Paper } from '@mui/material'
 
 const TimeTable = () => {
-  return(
-    <div className="grid-init">
+  return (
+    <div>
+      <Paper className='grid-init'>
         {/* 見出し */}
         <h1 className='text-xl'>2023年度 1年4組 後期時間割表</h1>
         {/* 列見出し */}
@@ -47,6 +49,7 @@ const TimeTable = () => {
         <h3 className='bg-white'></h3>
         <h2>8</h2>
         <h5 className='bg-white'></h5>
+      </Paper>
     </div>
   )
 }
