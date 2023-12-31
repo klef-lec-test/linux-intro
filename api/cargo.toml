@@ -19,9 +19,9 @@ name = "handler"
 path = "api/handler.rs"
 
 # Note that you need to provide unique names for each binary:
-# [[bin]]
-# name = "user-id"
-# path = "api/user/[id].rs"
+[[bin]]
+name = "hello"
+path = "api/hello.rs"
 #
 # [[bin]]
 # name = "group-id"
