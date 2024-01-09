@@ -3,7 +3,7 @@
     "api/**/*.rs": {
       "runtime": "vercel-rust@4.0.6",
       "memory": 3008,
-      "maxDuration": 30
+      "maxDuration": 10
     }
   }
 }
