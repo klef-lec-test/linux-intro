@@ -22,6 +22,17 @@
         ".\\Cargo.toml",
         ".\\Cargo.toml",
         ".\\Cargo.toml",
-        ".\\Cargo.toml"
+        ".\\Cargo.toml",
+        ".\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\wasm\\Cargo.toml",
+        ".\\api\\left-days\\Cargo.toml",
+        ".\\api\\left-days\\Cargo.toml",
+        ".\\api\\left-days\\Cargo.toml"
     ]
 }
