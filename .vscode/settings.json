@@ -2,6 +2,7 @@
     //見た目の設定
     "workbench.colorTheme": "Pastel Sky Bright Theme",
     "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "editor.fontFamily": "Firple",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     //エディターのスタイル
@@ -19,19 +20,6 @@
     "editor.formatOnSave": true,
     "files.autoSave": "onWindowChange",
     "rust-analyzer.linkedProjects": [
-        ".\\Cargo.toml",
-        ".\\Cargo.toml",
-        ".\\Cargo.toml",
-        ".\\Cargo.toml",
-        ".\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\wasm\\Cargo.toml",
-        ".\\api\\left-days\\Cargo.toml",
         ".\\api\\left-days\\Cargo.toml",
         ".\\api\\left-days\\Cargo.toml"
     ]

@@ -1,7 +1,7 @@
 import { Paper } from "@mui/material";
 import { get } from "http";
 import React, { useState, useEffect } from "react";
-import { Left } from "../../api/left-days/pkg/left_days";
+import Left from left-days
 
 const ExamTemplate = () => {
   const left_days: any = Left.left
