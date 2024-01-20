@@ -10,16 +10,16 @@ import Info from '@/components/info_template';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Dashboard - 1-4</title>
-        <meta lang='ja' />
+        <meta name='description' content="OMUCT 1年4組の時間割と連絡事項・提出物等の共有ページです。" />
       </Head>
       <Header title={"Dashboard"}></Header>
       <TimeTable />
       <WinterHw />
       <ExamTemplate />
       <Info />
-    </div>
+    </>
   )
 }
