@@ -20,9 +20,6 @@ dependencies:
   axios:
     specifier: ^1.6.0
     version: 1.6.0
-  left-days:
-    specifier: file:./api/left-days/pkg
-    version: file:api/left-days/pkg
   next:
     specifier: ^14.0.1
     version: 14.0.1(react-dom@18.2.0)(react@18.2.0)
@@ -41,7 +38,7 @@ devDependencies:
     specifier: ^20.8.6
     version: 20.8.6
   '@types/react':
-    specifier: ^18.2.30
+    specifier: ^18
     version: 18.2.30
   '@types/react-dom':
     specifier: ^18
@@ -3168,8 +3165,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  file:api/left-days/pkg:
-    resolution: {directory: api/left-days/pkg, type: directory}
-    name: left-days
-    dev: false
