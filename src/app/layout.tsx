@@ -2,7 +2,11 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Klee_One } from 'next/font/google'
 
+<<<<<<< HEAD
 const klee = Klee_One({
+=======
+const zen = Zen_Kurenaido ({
+>>>>>>> parent of 02260d9 (update layout.tsx, page.tsx and exam_temprate.tsx)
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
