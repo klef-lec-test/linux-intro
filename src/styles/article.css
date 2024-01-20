@@ -1,0 +1,33 @@
+h1 {
+  background-color: #e0e7ff;
+}
+h2 {
+  background-color: #e0e7ff;
+}
+h3 {
+  background-color: #eef2ff;
+}
+h4 {
+  background-color: #eef2ff;
+}
+h5 {
+  background-color: #e0e7ff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  border: 1px solid #64748b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  padding: 4px;
+}

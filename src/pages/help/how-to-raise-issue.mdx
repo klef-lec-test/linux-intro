@@ -1,0 +1,102 @@
+import Image from 'next/image';
+import fig1 from "../../pictures/gh_repo_before_signin.png";
+import fig2 from "../../pictures/gh_repo_after_signin.png";
+import fig3 from "../../pictures/gh_issue_top.png";
+import fig4 from "../../pictures/gh_issue_add.png";
+import fig5 from "../../pictures/gh_new_issue.png"
+import fig6 from "../../pictures/gh_complete_add_issue.png"
+import "@/styles/article.css"
+import { Paper, Card } from '@mui/material'
+
+## GitHub Issueのたてかた
+
+<Card>
+
+### 1. GitHubにアクセスする
+
+まず、Issueをたてたいリポジトリにアクセスします。  
+今回は、[本ページのリポジトリ](https://github.com/haru-0205/timetable-frontend-next)にアクセスします。
+
+</Card>
+
+<Card>
+
+### 2. GitHubにログインする
+
+アクセスすると、このようなページが表示されます。
+
+<Image src={fig1} alt="リポジトリトップページ(サインイン前)" layout='intrinsic' width={720}/>
+
+矢印のとおり、右上の"**Sign In**"**をクリックして**、**GitHubアカウントにサインイン**してください。  
+GitHubアカウントは、「**総合工学システム実験実習**」の**テーマ**「**I1**」で作成しているはずです。
+サインインすると、このように右上に自分のアイコンが表示されます。
+
+<Image src={fig2} layout="intrinsic" width={720} />
+
+</Card>
+
+<Card>
+
+### 3. Issueをたてる
+
+<Card>
+
+#### 3.1 Issueの作成
+
+それでは、Issueをたててみましょう。
+ここでは、先程のリポジトリではなく、[本ページのバックエンド(になるはずだった)リポジトリ](https://github.com/haru-0205/timetable-backend-rust)でIssueをたててみます。
+
+
+まず、上部にある"**Issues**"をクリックします。
+すると、このようなページが表示されます。
+
+<Image src={fig3} layout='intrinsic' width={720} />
+
+青色の"**New issue**"をクリックします。
+
+<Image src={fig4} layout='intrinsic' width={720} />
+
+これでIssueの作成画面になりました。
+
+</Card>
+<Card>
+
+#### 3.2 Issueの内容を書く
+
+Issueの作成画面に以下のように書き込み、青色の"**Submit new issue**"をクリックします。
+
+<Image src={fig5} layout='intrinsic' width={720} />
+
+それぞれ順序立てて説明します。  
+
+①は、Issueのタイトルです。  
+作業者がIssueを見たときに、すぐに内容がわかるように、簡潔に書きましょう。  
+
+②は、Issueの内容です。
+この欄では、Issueの内容を詳しく書きましょう。  
+Markdown記法も使えます。積極的に使いましょう。  
+Markdownについては、[こちら](https://zenn.dev/haru_0205/articles/3b2f764d40e7ad)を参照してください。  
+
+以上を書き終えたら、青色の"**Submit new issue**"をクリックします。
+すると、Issueがたてられます。  
+ちなみに、UIは全部英語ですが、普通に日本語で書いても大丈夫です。
+
+すべて正常に行われた場合、このような画面になります。
+
+<Image src={fig6} layout='intrinsic' width={720} />
+
+こうなればOKです。  
+
+</Card>
+<Card>
+
+#### 3.3 補足
+
+しかし、Issueをたてただけでは、Issueが解決されるわけではありません。  
+作業者がIssueを見つけて、解決してくれるのを待ちましょう。  
+たまに、Issueに対してコメントがつくことがあります。  
+その際は返してください...  
+ということで、Issueを立てたあとも、定期的に確認してください。
+
+</Card>
+</Card>
