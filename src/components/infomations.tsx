@@ -2,6 +2,11 @@ import { Paper } from "@mui/material"
 
 const INFOMATIONS = [
   {
+    title: "本ページの不具合について",
+    date: "2024.01.20",
+    contents: ""
+  },
+  {
     title: "このページについて",
     date: "2024.01.01",
     contents: "このページは元々あったOMUCT_1-4のリプレース版です。まだまだ開発途中ですが、ご活用いただけると幸いです。"
