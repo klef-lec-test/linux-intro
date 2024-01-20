@@ -1,7 +1,7 @@
 {
     //見た目の設定
     "workbench.colorTheme": "Pastel Sky Bright Theme",
-    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.iconTheme": "vs-seti",
     "editor.fontFamily": "Firple",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
@@ -22,5 +22,9 @@
     "rust-analyzer.linkedProjects": [
         ".\\api\\left-days\\Cargo.toml",
         ".\\api\\left-days\\Cargo.toml"
+    ],
+    "cSpell.words": [
+        "bindgen",
+        "leftdays"
     ]
 }
