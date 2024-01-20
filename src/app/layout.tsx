@@ -21,9 +21,7 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: {
-    template: '%s | 2023年度1-4',
-  },
+  title: '2023年度1-4_Dashboard',
   description: 'OMUCT 1年4組の時間割と連絡事項・提出物等の共有ページです。',
 }
 
