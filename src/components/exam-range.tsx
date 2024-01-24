@@ -8,8 +8,8 @@ const ExamRange = () => {
       return(
         <Paper>
           <h3 className="text-lg">{item.subject}</h3>
-          <p>範囲 : {item.range}</p>
-          <p>課題 : {item.homework}</p>
+          <p>範囲：<span className="whitespace-pre-wrap" dangerouslySetInnerHTML={{__html: item.range}}></span></p>
+          <p>課題：<span className="whitespace-pre-wrap" dangerouslySetInnerHTML={{__html: item.homework}}></span></p>
         </Paper>
       )
     })
