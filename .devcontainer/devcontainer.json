@@ -5,6 +5,10 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"dockerFile": "Dockerfile",
 	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+	"runArgs": [
+		"--name",
+		"timetable-frontend-next-dev-env"
+	],
 	"customizations": {
 		"vscode": {
 			"extensions": [

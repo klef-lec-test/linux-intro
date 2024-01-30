@@ -1,10 +1,6 @@
 #!/bin/bash
-# yarn(node.js)
-yarn add
-# pacman(Archlinux)
-pacman -S --noconfirm nano
-pacman -S --noconfirm neovim
-pacman -S --noconfirm neofetch
+#pnpm
+pnpm i --noconfirm
 # git
 git config --system core.autocrlf input
 # 以下は行頭以外の#の部分を変更し，行頭の#を削除してください．(ex: # git config -global user.email #your email -> git config --global user.email rm23081b@osaka-pct.ac.jp)
