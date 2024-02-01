@@ -11,11 +11,20 @@
   },
   {
     "subject": "英語表現1",
-    "range": "EARTHRISE Lesson10,11\n　　　VisionQuest WORKBOOK 不定詞,動名詞,分詞"
+    "range": "EARTHRISE Lesson9-10\n　　　VisionQuest WORKBOOK 動名詞,分詞"
   },
   {
-     "subject": "化学1",
-     "range": "教科書pp.120-177(ただしp.144,pp.166-169,p.177の3をのぞく)",
-     "homework": "問題集 p.176-194"
+    "subject": "化学1",
+    "range": "教科書pp.120-177(ただしp.144,pp.166-169,p.177の3をのぞく)",
+    "homework": "問題集 p.176-194"
+  },
+  {
+    "subject": "英語2",
+    "range": "教科書 U5P2-U6P2|Para.6",
+    "homework": "予習ノート"
+  },
+  {
+    "subject": "情報1",
+    "range": "講義ノート08-13(42題出題予定)\n　　　講義ノート01-07(8題出題予定)"
   }
 ]
