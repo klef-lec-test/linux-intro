@@ -17,7 +17,6 @@ export default function Home() {
       </Head>
       <Header title={"Dashboard"}></Header>
       <TimeTable />
-      <WinterHw />
       <ExamTemplate />
       <Info />
     </>
