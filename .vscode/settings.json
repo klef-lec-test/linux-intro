@@ -1,6 +1,6 @@
 {
     //見た目の設定
-    "workbench.colorTheme": "Pastel Sky Bright Theme",
+    "workbench.colorTheme": "Default Dark Modern",
     "workbench.iconTheme": "vs-seti",
     "editor.fontFamily": "Firple",
     "editor.minimap.enabled": true,
