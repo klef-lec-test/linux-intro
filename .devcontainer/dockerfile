@@ -5,5 +5,5 @@ LABEL maintainer="haru"
 LABEL name="timetable-frontend-next"
 
 RUN pacman -Syu --noconfirm 
-RUN pacman -S --noconfirm nodejs npm git github-cli nano neovim pnpm neofetch
+RUN pacman -S --noconfirm nodejs npm git github-cli nano neovim pnpm
 ENV PATH /root/.local/bin:$PATH

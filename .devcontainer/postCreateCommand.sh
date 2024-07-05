@@ -9,4 +9,4 @@ git config --system core.autocrlf input
 # git config --global user.name #your name
 # gh auth login --with-token #your GitHub Personal Access Token
 echo "設定が完了しました"
-echo "gitの設定を行うため, "./setup.sh"を実行してください．
+echo "gitの設定を行うため, "./setup.sh"を実行してください．"
